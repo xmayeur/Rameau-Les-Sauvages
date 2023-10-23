@@ -1,6 +1,6 @@
 \version "2.24.2"
 
-viola =
+alto =
 \relative c' {
   % En avant la musique.
 

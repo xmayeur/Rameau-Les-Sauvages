@@ -13,31 +13,26 @@
   #(set-paper-size "a4")
 }
 
-\layout {
-  \context {
-    \Voice
-    \consists "Melody_engraver"
 
-  }
-}
 
 global = {
-  \key bes \major
-  \numericTimeSignature
+
+  %\numericTimeSignature
   \time 2/2
 
 }
 
-\include "hautbois.ily"
+\include "Alto2.ily"
 
 \score {
-  \new Staff \with {
-    instrumentName = "Hautbois"
-    midiInstrument = "oboe"
-  } \oboe
-  \layout { }
-  \midi {
-    \tempo 4=130
-  }
-}
 
+  \new Staff \with {
+    instrumentName = #"Tailles"
+    midiInstrument = #"Alto"
+
+    \clef alto \key bes \major
+    \time 2/2
+
+
+  }  \viola
+}

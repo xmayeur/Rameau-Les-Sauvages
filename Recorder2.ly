@@ -34,5 +34,5 @@ global = {
     \time 2/2
 
 
-  }  \viola
+  }  \alto
 }

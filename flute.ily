@@ -1,29 +1,5 @@
 \version "2.24.2"
 
-\header {
-  title = "Danse du Grand Calumet de la Paix"
-  subtitle = "exécutée par les sauvages"
-  composer = "J-Ph Rameau"
-  arranger = "Arr. X. Mayeur"
-  piece = "Rondeau"
-  copyright = "Les Éditions du Héron Mélomane 2023"
-}
-
-\paper {
-  #(set-paper-size "a4")
-}
-
-\layout {
-  \context {
-    \Voice
-    \consists "Melody_engraver"
-  }
-}
-
-global = {
-  \key bes \major
-  \time 2/2
-}
 
 flute = \relative c'' {
   \global
@@ -48,13 +24,3 @@ flute = \relative c'' {
 
 }
 
-\score {
-  \new Staff \with {
-    instrumentName = "Flûte"
-    midiInstrument = "flute"
-  } \flute
-  \layout { }
-  \midi {
-    \tempo 4=130
-  }
-}
