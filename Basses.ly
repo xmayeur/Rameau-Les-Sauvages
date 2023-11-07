@@ -1,5 +1,7 @@
 \version "2.24.2"
 
+\include "../../copyright.ily"
+
 \header {
   title = "Danse du Grand Calumet de la Paix"
   subtitle = "exécutée par les sauvages"
@@ -7,7 +9,7 @@
   composer = "J-Ph Rameau"
   arranger = "Arr. X. Mayeur"
   piece = "Rondeau"
-  copyright = "Les Éditions du Héron Mélomane 2023"
+
 }
 
 \paper {
