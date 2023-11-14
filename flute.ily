@@ -1,7 +1,23 @@
 \version "2.24.2"
 
+global = {
+  \key bes \major
+  \numericTimeSignature
+  \time 2/2
+
+}
+
 
 flute = \relative c'' {
+  \incipit {
+    \global
+    \clef "french"
+
+    bes'2 d'8 [g']
+  }
+
+  \numericTimeSignature
+  \time 2/2
   \key bes \major
   % En avant la musique.
   bes'2\segno\f d,8 g bes c |  a4 d, fis a | c2 d,8 a' c  d bes4 d, g bes | d2 g,8 bes d g | ees ees d d c c  bes bes |
@@ -18,7 +34,7 @@ flute = \relative c'' {
 
   \set Score.repeatCommands = #'((volta "2")) bes'2 d,8( g) bes (c) \set Score.repeatCommands = #'((volta #f))| bes(a) g(f)  e(d) c(b) | g'2 a,8 cis e a | g(f) e(d) cis(b) cis(a)| f'2 a,8(d) f(g)|
   %39
-  f(e) d(c)bes(a) g(fis)| d'2 e,8 g d' e| cis2-+ \appoggiatura  {b8} a2 | f' a,8 d f g| e b b'4 r2| f2 a,8 d f g|
+  f(e) d(c)b(a) g(fis)| d'2 e,8 g d' e| cis2-+ \appoggiatura  {b8} a2 | f' a,8 d f g| e b b'4 r2| f2 a,8 d f g|
   %45
   e8 b b'4 r2| e,2 a,8 cis e f| d a a'2.~| a4g8-+ f e d e cis| d c bes a g fis e d_\markup \italic {"D.S."\segno"al Fine."} \bar "||"
 

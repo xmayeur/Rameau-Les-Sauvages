@@ -3,9 +3,18 @@
 viola =
 \relative c' {
   % En avant la musique.
+  \incipit {
+    \numericTimeSignature
+    \time 2/2
+    \clef "soprano"
+    \key bes \major
 
+    g'2 g'4 g'
+  }
 
   % \clef alto
+  \numericTimeSignature
+  \time 2/2
   \key bes \major
 
   g'2\segno  g4 g | fis2-+  a8 c fis,! a | d,4 d fis fis | g2 d8 g bes d| g,4 g bes d|

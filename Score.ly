@@ -60,7 +60,7 @@ scoreASopranoRecorderIIPart ={
 }
 scoreACelloPart =
 \new Staff \with {
-  instrumentName = "Violoncelle"
+  instrumentName = "Basse Continue"
   midiInstrument = "cello"
 } { \clef bass \cello }
 
@@ -73,7 +73,7 @@ scoreACelloPart =
     \scoreASopranoRecorderIIPart
     \scoreACelloPart
   >>
-  \layout { }
+  \layout { indent = 5\cm}
   \midi {
     \tempo 4=130
   }

@@ -18,7 +18,7 @@
 
 global = {
 
-  %\numericTimeSignature
+  \numericTimeSignature
   \time 2/2
 
 }
@@ -36,4 +36,5 @@ global = {
 
 
   }  \viola
+  \layout {indent=5\cm}
 }

@@ -65,7 +65,7 @@ scoreACelloPart =
     \scoreASopranoRecorderIIPart
     \scoreACelloPart
   >>
-  \layout { }
+  \layout {indent = 5\cm }
   \midi {
     \tempo 4=130
   }

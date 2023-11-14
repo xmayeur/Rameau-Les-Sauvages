@@ -27,6 +27,7 @@ global = {
 \score {
   \transpose c c'
   \new Staff \with {
+    \numericTimeSignature
     instrumentName = #"Recorder 2"
     midiInstrument = #"Flute"
 
@@ -35,4 +36,5 @@ global = {
 
 
   }  \alto
+  \layout {indent=5\cm}
 }

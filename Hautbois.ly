@@ -36,7 +36,7 @@ global = {
     instrumentName = "Hautbois"
     midiInstrument = "oboe"
   } \oboe
-  \layout { }
+  \layout { indent = 5\cm}
   \midi {
     \tempo 4=130
   }

@@ -24,7 +24,9 @@
 
 global = {
   \key bes \major
+  \numericTimeSignature
   \time 2/2
+
 }
 
 \include "flute.ily"
@@ -36,7 +38,7 @@ global = {
     instrumentName = "Flûte"
     midiInstrument = "flute"
   } \flute
-  \layout { }
+  \layout {indent= 5\cm }
   \midi {
     \tempo 4=130
   }

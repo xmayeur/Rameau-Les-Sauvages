@@ -4,7 +4,14 @@ alto =
 \relative c' {
   % En avant la musique.
 
+  \incipit {
+    \numericTimeSignature
+    \time 2/2
+    \clef "mezzosoprano"
+    \key bes \major
 
+    d'2 d'4 d'
+  }
   % \clef alto
   \key bes \major
 
