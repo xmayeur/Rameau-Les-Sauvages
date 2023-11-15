@@ -29,7 +29,7 @@ oboe = \relative c'' {
   %20
   d4f, bes d |f2 bes,8 d f bes| g g f f es es d d | c c' bes bes a bes bes8.-+(a32 bes)| c8 bes a-+ g  f es d c|  es2 bes'8 es, bes' g|
   %26
-  es2 bes'8 es, bes' g | es2 c8 es c' es,| es2_+ d| g c,8 es g a | f4 d bes'd,| c bes' a8 bes c a| bes a g f es d c bes_\markup \italic {"D.S."\segno"al Fine."}  \bar "||" \break
+  es2 bes'8 es, bes' g | es2 c8 es c' es,| es2-+ d| g c,8 es g a | f4 d bes'd,| c bes' a8 bes c a| bes a g f es d c bes_\markup \italic {"D.S."\segno"al Fine."}  \bar "||" \break
 
   \set Score.repeatCommands = #'((volta "2"))   bes'2 d,8 (g) bes (c)  \set Score.repeatCommands = #'((volta #f))
   bes(a)g (f) e(d) c(b) g'2 a,8 cis e a| g(f)e(d) cis(b)cis(a)| f'2 a,8(d) f(g)|
